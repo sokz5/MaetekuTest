@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A8F1C225259C47000A77B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1C125259C47000A77B5 /* AppDelegate.swift */; };
+		13A8F1C425259C47000A77B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1C325259C47000A77B5 /* SceneDelegate.swift */; };
+		13A8F1C625259C47000A77B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1C525259C47000A77B5 /* ViewController.swift */; };
+		13A8F1C925259C47000A77B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A8F1C725259C47000A77B5 /* Main.storyboard */; };
+		13A8F1CC25259C47000A77B5 /* MaetekuTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1CA25259C47000A77B5 /* MaetekuTest.xcdatamodeld */; };
+		13A8F1CE25259C49000A77B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A8F1CD25259C49000A77B5 /* Assets.xcassets */; };
+		13A8F1D125259C49000A77B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A8F1CF25259C49000A77B5 /* LaunchScreen.storyboard */; };
+		13A8F1DC25259C49000A77B5 /* MaetekuTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1DB25259C49000A77B5 /* MaetekuTestTests.swift */; };
+		13A8F1E725259C49000A77B5 /* MaetekuTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8F1E625259C49000A77B5 /* MaetekuTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13A8F1D825259C49000A77B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A8F1B625259C47000A77B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A8F1BD25259C47000A77B5;
+			remoteInfo = MaetekuTest;
+		};
+		13A8F1E325259C49000A77B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A8F1B625259C47000A77B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A8F1BD25259C47000A77B5;
+			remoteInfo = MaetekuTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A8F1BE25259C47000A77B5 /* MaetekuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaetekuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A8F1C125259C47000A77B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A8F1C325259C47000A77B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13A8F1C525259C47000A77B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A8F1C825259C47000A77B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A8F1CB25259C47000A77B5 /* MaetekuTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaetekuTest.xcdatamodel; sourceTree = "<group>"; };
+		13A8F1CD25259C49000A77B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A8F1D025259C49000A77B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A8F1D225259C49000A77B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A8F1D725259C49000A77B5 /* MaetekuTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaetekuTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A8F1DB25259C49000A77B5 /* MaetekuTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaetekuTestTests.swift; sourceTree = "<group>"; };
+		13A8F1DD25259C49000A77B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A8F1E225259C49000A77B5 /* MaetekuTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaetekuTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A8F1E625259C49000A77B5 /* MaetekuTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaetekuTestUITests.swift; sourceTree = "<group>"; };
+		13A8F1E825259C49000A77B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A8F1BB25259C47000A77B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1D425259C49000A77B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1DF25259C49000A77B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A8F1B525259C47000A77B5 = {
+			isa = PBXGroup;
+			children = (
+				13A8F1C025259C47000A77B5 /* MaetekuTest */,
+				13A8F1DA25259C49000A77B5 /* MaetekuTestTests */,
+				13A8F1E525259C49000A77B5 /* MaetekuTestUITests */,
+				13A8F1BF25259C47000A77B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A8F1BF25259C47000A77B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A8F1BE25259C47000A77B5 /* MaetekuTest.app */,
+				13A8F1D725259C49000A77B5 /* MaetekuTestTests.xctest */,
+				13A8F1E225259C49000A77B5 /* MaetekuTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A8F1C025259C47000A77B5 /* MaetekuTest */ = {
+			isa = PBXGroup;
+			children = (
+				13A8F1C125259C47000A77B5 /* AppDelegate.swift */,
+				13A8F1C325259C47000A77B5 /* SceneDelegate.swift */,
+				13A8F1C525259C47000A77B5 /* ViewController.swift */,
+				13A8F1C725259C47000A77B5 /* Main.storyboard */,
+				13A8F1CD25259C49000A77B5 /* Assets.xcassets */,
+				13A8F1CF25259C49000A77B5 /* LaunchScreen.storyboard */,
+				13A8F1D225259C49000A77B5 /* Info.plist */,
+				13A8F1CA25259C47000A77B5 /* MaetekuTest.xcdatamodeld */,
+			);
+			path = MaetekuTest;
+			sourceTree = "<group>";
+		};
+		13A8F1DA25259C49000A77B5 /* MaetekuTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				13A8F1DB25259C49000A77B5 /* MaetekuTestTests.swift */,
+				13A8F1DD25259C49000A77B5 /* Info.plist */,
+			);
+			path = MaetekuTestTests;
+			sourceTree = "<group>";
+		};
+		13A8F1E525259C49000A77B5 /* MaetekuTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13A8F1E625259C49000A77B5 /* MaetekuTestUITests.swift */,
+				13A8F1E825259C49000A77B5 /* Info.plist */,
+			);
+			path = MaetekuTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A8F1BD25259C47000A77B5 /* MaetekuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A8F1EB25259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTest" */;
+			buildPhases = (
+				13A8F1BA25259C47000A77B5 /* Sources */,
+				13A8F1BB25259C47000A77B5 /* Frameworks */,
+				13A8F1BC25259C47000A77B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaetekuTest;
+			productName = MaetekuTest;
+			productReference = 13A8F1BE25259C47000A77B5 /* MaetekuTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13A8F1D625259C49000A77B5 /* MaetekuTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A8F1EE25259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTestTests" */;
+			buildPhases = (
+				13A8F1D325259C49000A77B5 /* Sources */,
+				13A8F1D425259C49000A77B5 /* Frameworks */,
+				13A8F1D525259C49000A77B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A8F1D925259C49000A77B5 /* PBXTargetDependency */,
+			);
+			name = MaetekuTestTests;
+			productName = MaetekuTestTests;
+			productReference = 13A8F1D725259C49000A77B5 /* MaetekuTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13A8F1E125259C49000A77B5 /* MaetekuTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A8F1F125259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTestUITests" */;
+			buildPhases = (
+				13A8F1DE25259C49000A77B5 /* Sources */,
+				13A8F1DF25259C49000A77B5 /* Frameworks */,
+				13A8F1E025259C49000A77B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A8F1E425259C49000A77B5 /* PBXTargetDependency */,
+			);
+			name = MaetekuTestUITests;
+			productName = MaetekuTestUITests;
+			productReference = 13A8F1E225259C49000A77B5 /* MaetekuTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A8F1B625259C47000A77B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = sokz05;
+				TargetAttributes = {
+					13A8F1BD25259C47000A77B5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					13A8F1D625259C49000A77B5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 13A8F1BD25259C47000A77B5;
+					};
+					13A8F1E125259C49000A77B5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 13A8F1BD25259C47000A77B5;
+					};
+				};
+			};
+			buildConfigurationList = 13A8F1B925259C47000A77B5 /* Build configuration list for PBXProject "MaetekuTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A8F1B525259C47000A77B5;
+			productRefGroup = 13A8F1BF25259C47000A77B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A8F1BD25259C47000A77B5 /* MaetekuTest */,
+				13A8F1D625259C49000A77B5 /* MaetekuTestTests */,
+				13A8F1E125259C49000A77B5 /* MaetekuTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A8F1BC25259C47000A77B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8F1D125259C49000A77B5 /* LaunchScreen.storyboard in Resources */,
+				13A8F1CE25259C49000A77B5 /* Assets.xcassets in Resources */,
+				13A8F1C925259C47000A77B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1D525259C49000A77B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1E025259C49000A77B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A8F1BA25259C47000A77B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8F1CC25259C47000A77B5 /* MaetekuTest.xcdatamodeld in Sources */,
+				13A8F1C625259C47000A77B5 /* ViewController.swift in Sources */,
+				13A8F1C225259C47000A77B5 /* AppDelegate.swift in Sources */,
+				13A8F1C425259C47000A77B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1D325259C49000A77B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8F1DC25259C49000A77B5 /* MaetekuTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A8F1DE25259C49000A77B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8F1E725259C49000A77B5 /* MaetekuTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A8F1D925259C49000A77B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A8F1BD25259C47000A77B5 /* MaetekuTest */;
+			targetProxy = 13A8F1D825259C49000A77B5 /* PBXContainerItemProxy */;
+		};
+		13A8F1E425259C49000A77B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A8F1BD25259C47000A77B5 /* MaetekuTest */;
+			targetProxy = 13A8F1E325259C49000A77B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A8F1C725259C47000A77B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A8F1C825259C47000A77B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A8F1CF25259C49000A77B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A8F1D025259C49000A77B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A8F1E925259C49000A77B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13A8F1EA25259C49000A77B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A8F1EC25259C49000A77B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A8F1ED25259C49000A77B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13A8F1EF25259C49000A77B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaetekuTest.app/MaetekuTest";
+			};
+			name = Debug;
+		};
+		13A8F1F025259C49000A77B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaetekuTest.app/MaetekuTest";
+			};
+			name = Release;
+		};
+		13A8F1F225259C49000A77B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaetekuTest;
+			};
+			name = Debug;
+		};
+		13A8F1F325259C49000A77B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaetekuTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MaetekuTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaetekuTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A8F1B925259C47000A77B5 /* Build configuration list for PBXProject "MaetekuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8F1E925259C49000A77B5 /* Debug */,
+				13A8F1EA25259C49000A77B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A8F1EB25259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8F1EC25259C49000A77B5 /* Debug */,
+				13A8F1ED25259C49000A77B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A8F1EE25259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8F1EF25259C49000A77B5 /* Debug */,
+				13A8F1F025259C49000A77B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A8F1F125259C49000A77B5 /* Build configuration list for PBXNativeTarget "MaetekuTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8F1F225259C49000A77B5 /* Debug */,
+				13A8F1F325259C49000A77B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13A8F1CA25259C47000A77B5 /* MaetekuTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13A8F1CB25259C47000A77B5 /* MaetekuTest.xcdatamodel */,
+			);
+			currentVersion = 13A8F1CB25259C47000A77B5 /* MaetekuTest.xcdatamodel */;
+			path = MaetekuTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13A8F1B625259C47000A77B5 /* Project object */;
+}
